@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: devops-platform
-          image: agarciafer/devops-platform:latest
+          image: agarciafer/devops-platform:v5
           ports:
             - containerPort: 5000
           env:
