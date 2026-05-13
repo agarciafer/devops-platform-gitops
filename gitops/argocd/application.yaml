@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/GonzalezJulio/devops-platform-gitops.git
+    repoURL: https://github.com/agarciafer/devops-platform-gitops.git
     targetRevision: master
     path: gitops/
 
