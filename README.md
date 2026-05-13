@@ -184,9 +184,7 @@ La Etapa 2 incluirá:
 ---
 
 # 👨‍💻 Autor
-
-Julio González
+Alberto Garcia
 
 ## 🔗 Repositorio
-
-https://github.com/GonzalezJulio/devops-platform-gitops
+https://github.com/agarciafer/devops-platform-gitops.git
