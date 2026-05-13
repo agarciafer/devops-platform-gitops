@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: devops-platform-container
-        image: aresden113/devops-platform:v1
+        image: agarciafer/devops-platform:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
