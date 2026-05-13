@@ -1,4 +1,4 @@
-# DevOps Platform Cloud Metrics — Etapa 1
+# DevOps Platform Cloud 
 
 ## 📌 Descripción
 
