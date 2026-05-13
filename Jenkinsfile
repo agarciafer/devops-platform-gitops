@@ -1,19 +1,21 @@
 pipeline {
 
-    agent any
+    agent {
+        label 'principal'
+    }
 
     parameters {
 
         string(
             name: 'VERSION',
             defaultValue: 'v1',
-            description: 'Version Docker image'
+            description: 'Version de la imagen Docker'
         )
 
         string(
             name: 'REPLICAS',
             defaultValue: '2',
-            description: 'Numero de replicas'
+            description: 'Numero de replicas Kubernetes'
         )
     }
 
@@ -98,7 +100,7 @@ pipeline {
 
                         git add ${GITOPS_FILE}
 
-                        git commit -m "Update image ${VERSION} and replicas ${REPLICAS}" || echo "No changes"
+                        git commit -m "Update image ${VERSION} and replicas ${REPLICAS}" || echo "No hay cambios"
 
                         git push https://${GIT_USER}:${GIT_TOKEN}@github.com/agarciafer/devops-platform-gitops.git HEAD:main
                     '''
@@ -111,12 +113,12 @@ pipeline {
 
         success {
 
-            echo "Pipeline GitOps completado correctamente"
+            echo 'Pipeline GitOps completado correctamente'
         }
 
         failure {
 
-            echo "Pipeline GitOps fallido"
+            echo 'Pipeline GitOps fallido'
         }
     }
 }
