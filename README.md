@@ -89,13 +89,13 @@ Service (NodePort)
 ## Construcción de imagen
 
 ```bash
-docker build -t aresden113/devops-platform:v1 .
+docker build -t agarciafer/devops-platform:v1 .
 ```
 
 ## Push a Docker Hub
 
 ```bash
-docker push aresden113/devops-platform:v1
+docker push agarciafer/devops-platform:v1
 ```
 
 ---
