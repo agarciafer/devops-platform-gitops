@@ -169,20 +169,6 @@ Durante la etapa se realizó una actualización completa de la aplicación:
 
 ---
 
-# 📌 Próxima etapa
-
-La Etapa 2 incluirá:
-
-- Ingress + Traefik
-- Prometheus
-- Grafana
-- Loki
-- Promtail
-- Observabilidad completa
-- CI/CD con GitHub Actions
-
----
-
 # 👨‍💻 Autor
 Alberto Garcia
 
