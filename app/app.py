@@ -22,8 +22,8 @@ REQUEST_LATENCY = Histogram(
     "Request latency"
 )
 
-APP_VERSION = os.getenv("APP_VERSION", "v4.0.0")
-ENVIRONMENT = os.getenv("ENVIRONMENT", "Miercoles13-05-2026")
+APP_VERSION = os.getenv("APP_VERSION", "")
+ENVIRONMENT = os.getenv("ENVIRONMENT", "DevOps")
 
 hostname = socket.gethostname()
 
