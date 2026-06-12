@@ -4,7 +4,7 @@ metadata:
   name: devops-platform
   namespace: devops-platform
 spec:
-  replicas: 0
+  replicas: 5
   selector:
     matchLabels:
       app: devops-platform
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: devops-platform
-          image: agarciafer/devops-platform:v4
+          image: agarciafer/devops-platform:v2
           ports:
             - containerPort: 5000
           
