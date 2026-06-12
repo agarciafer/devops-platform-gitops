@@ -4,7 +4,7 @@ metadata:
   name: devops-platform
   namespace: devops-platform
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: devops-platform
